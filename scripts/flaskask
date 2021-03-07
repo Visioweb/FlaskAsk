@@ -4,6 +4,6 @@ server {
 
     location / {
         include proxy_params;
-        proxy_pass http://unix:/home/ubuntu/venv/flaskask.sock;
+        proxy_pass http://unix:/home/ubuntu/flaskask/flaskask.sock;
     }
 }
