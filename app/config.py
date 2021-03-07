@@ -19,7 +19,7 @@ class Config:
 
 
 class DevelopmentConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql:///flaskaskdb'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://flaskuser:qwerty@localhost/flaskaskdb'
 
 
 class ProductionConfig(Config):
